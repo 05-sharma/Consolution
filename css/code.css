@@ -2,10 +2,51 @@
     background-color: #0D1128;
     display: flex;
     align-items: center;
-    /* padding: ; */
+    justify-content: space-between;
+    padding: 5px 30px 5px 30px;
+    /* width: 95%; */
+    font-family: verdana;
+    gap: 20PX;
 }
 .logo{
-    font-size: 25px;
+    font-size: 35px;
     color: white;
-
+    font-weight: 550;
+}
+.pages{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 40px;
+}
+.pages p{
+    width: fit-content;
+}
+.signin{
+    width: fit-content;
+    color: white;
+    margin-left: 80px;
+    
+}
+.login{
+    width: 100px;
+    padding: 0px 3px 0px 3px;
+    border-radius: 50px;
+    background-color: #1B9CE3;
+    color: #0D1128;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.herosection{
+    width: 100%;
+    background-color: #1B9CE3;
+    height: 500px;
+    display: flex;
+    
+    
+}
+.herosection img{
+    width: 100%;
+    object-fit: cover;
 }
