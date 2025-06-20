@@ -602,9 +602,44 @@
 .ques{
     padding-left: 30px;
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.addressinside{
+    display: flex;
+    flex-direction: row;
+}
+.addressinside img{
+    width: 20px;
+    height: 20px;
+}
+.addressinside p{
+    padding: 0px;
+    margin: 0px;
+    padding-left: 30px;
+    width: 70%;
+    font-size: 13px;
+    color: #979797;
+}
+.addressinside a{
+    font-size: 13px;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 30px;
+    color: white;
+    text-decoration: none;
 }
 .recentblog{
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .links{
     margin-top: 30px;
@@ -659,6 +694,46 @@
     width: 30px;
     border-radius: 100px;
     background-color: #3a3a3a;
-    padding: 5px;
+    padding: 2px;
+}
+.pics img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.blogsection{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.blogblock{
+    display: flex;
+    flex-direction: row;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 10px;
+    gap: 20px;
     
+}
+.texts a{
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+.day{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.day p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    color: #979797;
 }
