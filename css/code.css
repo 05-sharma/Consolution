@@ -404,19 +404,21 @@
     opacity: 20%;
 }
 .Blogs{
-    margin-top: 100px;
+    margin-top: 0px;
     width: 100%;
-    height: fit-content;
+    height: 900px;
     font-family: verdana;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 40px;
+    background-color: #f8f6f6;
 }
 .Blogs h2{
     color: #233E62;
     padding: 0px;
     margin: 0px;
+    margin-top: 120px;
 }
 .Blogs p{
     color: #979797;
@@ -446,6 +448,8 @@
 }
 .date h2{
     color: white;
+    margin: 0px;
+    padding: 0px;
 }
 .date p{
     font-size: 14px;
@@ -457,7 +461,16 @@
     object-fit: cover;
     z-index: 1;
 }
-.blogbox a{
+.bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 170px;
+}
+.bottom u{
+    color: #1B9CE3;
+}
+.bottom a{
     color: white;
     text-decoration: none;
     background-color: #1B9CE3;
@@ -483,4 +496,170 @@
     text-align: left;
     padding: 0px;
     margin: 0px;
+}
+.headbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.testemonials{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: verdana;
+    gap: 40px;
+
+}
+.testemonials h2{
+    color: #233E62;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 100px;
+}
+.testemonials p{
+    color: #979797;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.views{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: auto;
+    height: fit-content;
+    gap: 40px;
+    
+}
+.views img{
+    width: 60px;
+}
+.reviews{
+    width: 350px;
+    height: 250px;
+    border: 3px solid #9edafb;
+    display: flex;
+    flex-direction: column;  
+    gap: 20px;
+}
+
+.pic{
+    display: flex;
+    flex-direction: row;
+}
+.pic img{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 50px;
+}
+.pic p{
+    width: 190px;
+    font-size: 16px;
+    margin-top: 30px;
+    text-align: start ;
+    margin-left: 20px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    gap: 10px;
+    margin-left: 150px;
+    justify-content:start;
+}
+.name h3{
+    margin: 0px;
+    padding: 0px;
+}
+.name p{
+    color: #1B9CE3;
+    margin: 0px;
+    padding: 0px;
+}
+.bigcircle{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 30px;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    background-color: #1B9CE3;
+    border-radius: 50px;
+}
+.last{
+    width: 100%;
+    height: 600px;
+    background-color: #232323;
+    color: white;
+    font-family: verdana;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.ques{
+    padding-left: 30px;
+    margin-top: 30px;
+}
+.recentblog{
+    margin-top: 30px;
+}
+.links{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sublinks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sublinks a{
+    color: #979797;
+    text-decoration: none;
+    font-size: 14px;
+}
+.subscribe{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.email input{
+    width: 197px;
+    height: 50px;
+    background-color: #3a3a3a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid;
+    font-size: 15px;
+}
+.email a{
+    width: 200px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #1B9CE3;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apps img{
+    width: 30px;
+    border-radius: 100px;
+    background-color: #3a3a3a;
+    padding: 5px;
+    
 }
