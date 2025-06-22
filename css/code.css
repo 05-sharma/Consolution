@@ -47,6 +47,14 @@
     justify-content: center;
     align-items: center;
 }
+.login a{
+    color: white;
+    text-decoration: none;
+}
+.menu img{
+    display: none;
+
+}
 .herosection{
     position: relative ;
     height: 500px;
@@ -323,14 +331,13 @@
     margin: 0px;
 }
 .mainproject{
-    width: 100%;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;   
     gap: 0px;
     
 }
 .projectwork img{
-    width: 310px;
+    width: 300px;
     height: 300px;
     padding: 0px;
     margin: 0px;
@@ -741,4 +748,123 @@
     margin: 0px;
     font-size: 12px;
     color: #979797;
+}
+
+
+@media(max-width:1200px){
+
+.bigbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 90%;
+    
+}
+.box{
+    width: 100%;
+    gap: 10px;
+}
+.lower{
+    gap: 50px;
+    
+}
+
+.projectwork img{
+    width: 285px;
+    height: 300px;
+
+}
+}
+
+
+@media (max-width:1024px) {
+    .pages{
+    display: none;
+}
+
+.setting{
+    display: none;
+    
+
+}
+.menu img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.bigbox{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 85%;
+    
+}
+
+.box{
+    width: 270px;
+    height: 240px;
+    gap: 15px;
+}
+.right{
+    width: 35%;
+    margin-right: 20px;
+}
+.right img{
+    width: 350px;
+}
+
+.lower{
+    width: 95%;
+    gap: 40px;
+    
+}
+.projects{
+    height: 651px;
+}
+.mainproject{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.projectwork img{
+    width: 250px;
+    height: 250px;
+}
+.message{
+    right: 60px;
+}
+.blogbox{
+    width: 300px;
+}
+.date{
+    margin-top: 140px;
+}
+.blogbox img{
+    width: 300px;
+}
+.blogtext{
+    gap: 15px;
+}
+
+.blogtext p{
+    font-size: 13px;
+}
+.bottom{
+    gap: 100px;
+}
+.testemonials{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: verdana;
+    gap: 40px;
+
+}
+.views{
+    grid-template-columns: 1fr 1fr ;
+}
 }
