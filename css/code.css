@@ -752,27 +752,47 @@
 
 
 @media(max-width:1200px){
-
-.bigbox{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    width: 90%;
-    
-}
-.box{
-    width: 100%;
-    gap: 10px;
-}
 .lower{
     gap: 50px;
     
 }
+.projects{
+    height: 706px;
+}
 
 .projectwork img{
-    width: 285px;
-    height: 300px;
+    width: 277px;
+    height: 277px;
 
+}
+.bigbox{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    
+}
+.box{
+    gap: 15px;
+}
+.right{
+    margin-right: 20px;
+}
+.right img{
+    width: 385px;
+    
+}
+.blogbox{
+    width: 300px;
+}
+.blogbox img{
+    width: 300px;
+}
+.bottom{
+    gap: 120px;
+}
+.reviews{
+    width: 330px;
 }
 }
 
@@ -794,34 +814,46 @@
     align-items: center;
 }
 .bigbox{
-    margin-left: 20px;
+    margin-left: 2px;
+    margin-right: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    width: 85%;
+    gap: 8px;
+    width: 70%;
     
 }
 
 .box{
-    width: 270px;
-    height: 240px;
-    gap: 15px;
+    width: 250px;
+    height: 220px;
+    gap: 8px;
+    
+}
+.box p{
+    font-size: 14px;
 }
 .right{
     width: 35%;
-    margin-right: 20px;
+    /* margin-right: 20px; */
+    padding: 10px;
 }
 .right img{
-    width: 350px;
+    width: 305px;
+}
+.right p{
+    font-size: 14px;
 }
 
 .lower{
     width: 95%;
-    gap: 40px;
+    gap: 20px;
     
 }
+.lower p{
+    font-size: 15px;
+}
 .projects{
-    height: 651px;
+    height: 590px;
 }
 .mainproject{
    display: grid;
@@ -829,20 +861,23 @@
     
 }
 .projectwork img{
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
 }
 .message{
     right: 60px;
 }
+.headbox{
+    gap: 20px;
+}
 .blogbox{
-    width: 300px;
+    width: 270px;
 }
 .date{
-    margin-top: 140px;
+    margin-top: 150px;
 }
 .blogbox img{
-    width: 300px;
+    width: 270px;
 }
 .blogtext{
     gap: 15px;
@@ -852,19 +887,122 @@
     font-size: 13px;
 }
 .bottom{
-    gap: 100px;
+    gap: 80px;
 }
 .testemonials{
-    width: 100%;
     height: 900px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-family: verdana;
-    gap: 40px;
-
 }
 .views{
     grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+}
+.last{
+    gap: 10px;
+}
+.ques{
+    padding-left: 20px;
+}
+.subscribe{
+    margin-right: 20px;
+}
+}
+
+
+@media(max-width:768px){
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.left p{
+    text-align: center;
+}
+.bigbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    
+}
+.box{
+    width: 300px;
+    height: 220px;
+    padding: 20px;
+    gap: 15px;
+}
+.box img{
+    width: 70px;
+}
+.box p{
+    font-size: 15px
+}
+
+.right{
+    width: 60%;
+    border: 3px solid #92d5fa ;
+    justify-content: center;
+}
+.right img{
+    width: 470px;
+}
+.right p{
+    font-size: 15px;
+}
+.lower{
+    width: 96%;
+    gap: 15px;
+    
+}
+.lower p{
+    font-weight: 550;
+    font-size: 14px;
+}
+.projectwork img{
+    width: 200px;
+    height: 200px;
+}
+.projects{
+    height: 571px;
+}
+.message{
+    width: 70%;
+    right: 100px;
+}
+.Blogs{
+    height: 1400px;
+
+}
+.headbox{
+    grid-template-columns: 1fr 1fr ;
+    gap: 30px;
+}
+.blogbox{
+    width: 350px;
+}
+
+.blogbox img{
+    width: 350px;
+}
+.bottom{
+    gap: 170px;
+}
+.last{
+    height: 900px;
+    grid-template-columns: 1fr 1fr ;
+    gap: 0px;
+}
+.links{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.subscribe{
+    margin-top: 0px;
+    gap: 20px;
 }
 }
