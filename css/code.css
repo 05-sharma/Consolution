@@ -913,6 +913,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 .left{
     display: flex;
@@ -920,8 +921,12 @@
     align-items: center;
     width: 100%;
 }
+.left h2{
+    padding: 0px;
+}
 .left p{
     text-align: center;
+    padding: 0px;
 }
 .bigbox{
     display: grid;
@@ -956,7 +961,7 @@
 }
 .lower{
     width: 96%;
-    gap: 15px;
+    gap: 10px;
     
 }
 .lower p{
