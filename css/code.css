@@ -1152,4 +1152,16 @@
     padding-left: 5px;
 
 }
+.last{
+    width: 90%;
+    height: 1350px;
+    grid-template-columns: 1fr;
+    padding-left: 40px;
+}
+.links{
+    margin: 0px;
+}
+.ques{
+    padding-left: 0px;
+}
 }
